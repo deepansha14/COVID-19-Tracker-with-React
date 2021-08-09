@@ -1,0 +1,33 @@
+.Box {
+  flex: 1;
+}
+
+.Box:not(:last-child) {
+  margin-right: 10px;
+}
+
+.Box--selected {
+  border-top: 10px solid #00C1D4;
+}
+
+.Box--red {
+  border-color: #F8485E;
+}
+
+.Box__cases--green {
+  color: #00C1D4 !important;
+}
+
+.Box__cases {
+  color: #F8485E;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.Box__total {
+  color: #F8485E;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  margin-top: 15px !important;
+}

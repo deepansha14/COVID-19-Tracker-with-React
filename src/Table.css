@@ -1,0 +1,17 @@
+.table{
+    margin: 10px 0;
+    overflow: scroll;
+    height: 400px;
+    color:#393E46;
+}
+.table tr {
+display: flex;
+justify-content: space-between;
+}
+
+.table td{
+    padding: 0.3rem;
+}
+.table tr{
+    border-bottom: #EEEEEE solid;
+}
