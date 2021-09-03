@@ -135,7 +135,7 @@ const App = () => {
             <Table countries={tableData} />
             <hr />
             <h3>Worldwide new {TypeOfCases}</h3>
-            <LinearPlot className="main__plot" TypeOfCases={TypeOfCases} className="graph" />
+            <LinearPlot className="main__plot graph" TypeOfCases={TypeOfCases} />
           </div>
         </CardContent>
       </Card>
